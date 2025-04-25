@@ -46,13 +46,6 @@ opts = {
 }
 ```
 
-Usage
-Commands
-Command Description Example
-:TinygoTarget <target> Set build target :TinygoTarget wasm
-:TinygoTarget - Reset environment :TinygoTarget -
-:TinygoTargets List available targets :TinygoTargets
-
 ## Key Features
 
 1. Intelligent Autocompletion
@@ -62,12 +55,10 @@ Command Description Example
 :TinygoTarget pico<Tab>
 ```
 
-→ Completes to :TinygoTarget pico
-
 2. Automatic LSP Handling
    Changing targets automatically:
 
-   - Updates GOFLAGS and GOROOT
+   - Updates `GOFLAGS` and `GOROOT`
    - Restarts LSP with correct configuration
    - Preserves your original LSP settings
 
