@@ -30,12 +30,6 @@ Add to your Neovim configuration:
 }
 ```
 
-## Then run:
-
-```vim
-:Lazy sync
-```
-
 ## Configuration Options
 
 ```lua
