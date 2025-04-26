@@ -30,16 +30,6 @@ Add to your Neovim configuration:
 }
 ```
 
-## Configuration Options
-
-```lua
-opts = {
-    auto_detect = true, -- Auto-detect TinyGo projects
-    verbose_notifications = false, -- Detailed change notifications
-    lsp_restart_delay = 150, -- Delay before LSP restart (ms)
-}
-```
-
 ## Key Features
 
 1. Intelligent Autocompletion
